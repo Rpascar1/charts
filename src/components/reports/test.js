@@ -14,7 +14,7 @@ render(){
     if(!this.props.report) {
 
       return <div>Loading...</div>
-
+      console.log(this.props);
     } else if(report.userId === this.props.currentUserId || this.props.currentUserId === ADMIN_KEY){
     return (
 
