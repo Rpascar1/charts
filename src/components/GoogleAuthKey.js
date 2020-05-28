@@ -1,5 +1,5 @@
 
 
-const Google_Auth_Key = "178524345648-dppiqh08s6v1h366p7dlt4h5ns7akum6.apps.googleusercontent.com"
+const Google_Auth_Key = "322274247993-6kbqgri4c3gpmnb73mroum0n5j6li9ed.apps.googleusercontent.com"
 
 export default Google_Auth_Key
