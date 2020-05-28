@@ -55,7 +55,7 @@ class GoogleAuth extends React.Component{
             <img className={styles.googleicon} src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="this is broken"/>
 
             </div>
-            <a className={styles.btntextSO}><b>Sign Out</b></a>
+            <a className={styles.btntextSO} alt="this is broken"><b>Sign Out</b></a>
             </div>
         </div>
 
@@ -68,10 +68,10 @@ class GoogleAuth extends React.Component{
         <div className={styles.googleBtn}>
           <div className={styles.googleiconwrapper}>
             <i>
-            <img className={styles.googleicon} src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+            <img className={styles.googleicon} src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="this is broken"/>
             </i>
           </div>
-            <a className={styles.btntextSI}><b>Sign in</b></a>
+            <a className={styles.btntextSI} alt="this is broken"><b>Sign in</b></a>
             </div>
 
         </div>
