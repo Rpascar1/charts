@@ -10,7 +10,7 @@ const Header = () => {
 
       <div className="ui secondary menu">
 
-          <img className={styles.badgeicon} src={solidBars}/>
+          <img className={styles.badgeicon} src={solidBars} alt="this is broken"/>
 
         <div className="itemdate">
           {TodaysDate}
