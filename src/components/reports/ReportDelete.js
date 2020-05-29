@@ -2,7 +2,7 @@ import React from 'react'
 import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 import Modal from '../Modal'
-import history from  '../../history'
+import history from  '../../myhistory'
 import {fetchReport, deleteReport} from '../../actions'
 
 class ReportDelete extends React.Component {

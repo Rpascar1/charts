@@ -1,4 +1,4 @@
-import history from '../history'
+import history from '../myhistory'
 import {
   SIGN_IN,
   SIGN_OUT,
@@ -23,7 +23,7 @@ export const signOut = () => {
 }
 
 
-const BASEURL = 'https://medi-chart-api.herokuapp.com/api/v1'
+const BASEURL = 'api/v1'
 //const BASEURL = 'https://medi-chart.herokuapp.com/api/v1'
 export const createReport = formValues => async (dispatch,
 getState) => {
