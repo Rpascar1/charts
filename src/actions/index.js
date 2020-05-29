@@ -22,7 +22,8 @@ export const signOut = () => {
     }
 }
 
-const BASEURL = 'api/v1'
+
+const BASEURL = 'https://medi-chart-api.herokuapp.com/api/v1'
 //const BASEURL = 'https://medi-chart.herokuapp.com/api/v1'
 export const createReport = formValues => async (dispatch,
 getState) => {
