@@ -4,15 +4,12 @@
 // console.log(history.createBrowserHistory);
 // export default history.createBrowserHistory();
 
-import history from "history";
-
 /**
  * Creates a history object that uses the HTML5 history API including
  * pushState, replaceState, and the popstate event.
  *
  */
 // const history = createHistory.createBrowserHistory();
- console.log(history);
 
 
-export default history;
+export default createBrowserHistory();

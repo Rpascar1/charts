@@ -2,16 +2,14 @@
 <html>
 
   <head>
-    <%= javascript_pack_tag 'medi-chart-bundle' %>
     <meta charset="utf-8" name="google-site-verification" content="z-YVPlLhGvGVwlJod3RaoqHD52ilwypLc0zJvwcZuf0"/>
 
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
 
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 
     <title>React App</title>
   </head>
@@ -19,5 +17,8 @@
     <noscript>You need to enable JavaScript to run this app. </noscript>
     <div id="root"></div>
     <div id="modal"></div>
+    
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <%= javascript_pack_tag 'medi-chart-bundle' %>
   </body>
 </html>
